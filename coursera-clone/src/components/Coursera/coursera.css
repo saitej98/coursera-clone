@@ -1,0 +1,15 @@
+.main {
+  width: 80%;
+  margin: auto;
+}
+.coursera {
+  display: flex;
+  width: 40%;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+.coursera img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}

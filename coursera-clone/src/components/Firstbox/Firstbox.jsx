@@ -12,7 +12,7 @@ function Firstbox() {
             I am currently a{" "}
             <input id="self" type="text" placeholder="software developer" />
           </p>
-          <a
+          <a style={{color:"blue" }}
             href=""
             onClick={() => {
               alert("Profile saved succesfully..!");
@@ -25,9 +25,9 @@ function Firstbox() {
               <div className="goals">
                   
           <h5> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5iSVqQm3PR_FHkDG7KbDf5xWqJlzHak8-CYKp__MvHkFdw0Wf" alt="" />SET YOUR LEARNING GOALS</h5>
-          <a href="">Change my career</a>
-          <br />
-          <a href="">Level up my skills</a>
+          <p>Change my career</p>
+          <p>Level up my skills</p>
+<a href="" style={{color:"blue" }}>Update My learning goal</a>
         </div>
       </div>
     </div>
