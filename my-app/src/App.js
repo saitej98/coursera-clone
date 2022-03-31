@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import { Navbar } from './Components/Navbar';
-import { Footer } from './Components/Footer';
+import { Routes,Route } from 'react-router-dom';
+
+import { FooterComponent } from './Components/FooterComponent';
+import { SearchPage } from './Components/SearchPage';
 
 function App() {
   return (
-    <div >
-    <Navbar/>
-    {/* <Footer/> */}
-    </div>
+    <Routes>
+      <Route path='/' element={   
+        <><Navbar/>
+        <FooterComponent/></> }></Route>
+        <Route path='/search/:name' element={<SearchPage/>}></Route>
+    </Routes>
+    
   );
 }
 

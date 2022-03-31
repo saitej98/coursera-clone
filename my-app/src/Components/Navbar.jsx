@@ -3,11 +3,17 @@ import {AppBar,Typography,Toolbar, Tabs, Tab, InputBase,useMediaQuery,useTheme, 
  import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
  import SearchIcon from '@mui/icons-material/Search';
 import { DrawerCoomponent } from "./DrawerComponent";
+import { useNavigate } from "react-router-dom";
 
 export const Navbar=()=>{
     const [value,setValue]=useState();
     const theme=useTheme(null);
    const isMatch=useMediaQuery(theme.breakpoints.down("md"));
+   const [input,setInput]=useState("");
+const navigate =useNavigate()
+   const handleClick=()=>{
+    return navigate(`/search/${input}`);
+   }
     return(
         <React.Fragment>
             <AppBar sx={{backgroundColor:"white"}}>
@@ -32,10 +38,10 @@ export const Navbar=()=>{
                     coursera
                 </Typography>
                 <Typography sx={{border:"1px solid ", backgroundColor:"#007bff", borderRadius:"5%", marginLeft:"2%",paddingLeft:"1%",paddingRight:"1%",paddingTop:"0.5%",paddingBottom:"0.5%", marginRight:"2%"}}>Explore</Typography>
-                <InputBase sx={{color:"black",border:"1px solid black", width:"20%",height:"25px"}}>
+                <InputBase sx={{color:"black",border:"1px solid black", width:"20%",height:"25px"}} onChange={(e)=>{setInput(e.target.value)}}>
                    
                 </InputBase>
-                <SearchIcon sx={{color:"white", border:"0px solid ",backgroundColor:"#007bff",paddingLeft:"0.2%",paddingRight:"0.2%",height:"25px"}}/>
+                <SearchIcon sx={{color:"white", border:"0px solid ",backgroundColor:"#007bff",paddingLeft:"0.2%",paddingRight:"0.2%",height:"25px"}} onClick={()=>{handleClick()}}/>
                 <Tabs  value={value} onChange={(e,value)=>{setValue(value)}} indicatorColor="primary">
                     <Tab label="Degrees" sx={{color:"black",fontSize:"10px"}}/>
                     <Tab label="Find Your New Career" sx={{color:"black",fontSize:"10px"}}/>
