@@ -35,8 +35,13 @@ let arr3=["Press","Investors","Terms","Privacy","Help","Accessibility","Contact"
                    </Grid>
                    {/* for images */}
                     <Grid sm={2} xs={12}  sx={{marginTop:"60px"}}>
-                    <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg" ></img>
-                    <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png" style={{width:"135px",height:"40px",marginTop:"10px"}} alt="" />
+                        <a href="https://apps.apple.com/app/apple-store/id736535961">
+                        <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg"></img>
+                        </a>
+                   <a href="https://play.google.com/store/apps/details?id=org.coursera.android">
+                   <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png" style={{width:"135px",height:"40px",marginTop:"10px"}} alt="" />
+                   </a>
+                   
                     <img   style={{marginTop:"10px"}} src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&dpr=1&w=151&h=120&q=40" alt="" />
                     </Grid>
                    

@@ -14,6 +14,9 @@ const navigate =useNavigate()
    const handleClick=()=>{
     return navigate(`/search/${input}`);
    }
+   const handleHome=()=>{
+       return navigate("/")
+   }
     return(
         <React.Fragment>
             <AppBar sx={{backgroundColor:"white"}}>
@@ -24,7 +27,7 @@ const navigate =useNavigate()
             <Typography sx={{color: "#007bff",
             fontSize:"25px",
             fontWeight:"20px",
-            marginLeft:"40%"}}>
+            marginLeft:"40%"}} onClick={handleHome} className="heading">
                     coursera
                 </Typography>
                 
@@ -34,7 +37,7 @@ const navigate =useNavigate()
         <>
              <Typography sx={{color: "#007bff",
             fontSize:"25px",
-            fontWeight:"20px"}}>
+            fontWeight:"20px"}}  onClick={handleHome}>
                     coursera
                 </Typography>
                 <Typography sx={{border:"1px solid ", backgroundColor:"#007bff", borderRadius:"5%", marginLeft:"2%",paddingLeft:"1%",paddingRight:"1%",paddingTop:"0.5%",paddingBottom:"0.5%", marginRight:"2%"}}>Explore</Typography>
