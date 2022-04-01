@@ -3,9 +3,10 @@ import Secondbox from "./components/Secondbox/Secondbox";
 import Degree from "./components/Degree/Degree";
 import Projects from "./components/Projects/Projects";
 import Coursera from "./components/Coursera/Coursera";
-import Ad from "./components/Ad/Ad"
+import Ad from "./components/Ad/Ad";
+import Popular from "./components/Popular/Popular"
 
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // import React from "react";
@@ -17,13 +18,15 @@ function App() {
       <div>
         <Firstbox />
         <Secondbox />
+        <br />
         <Degree />
-        <Projects />
+        <br />
+        <Projects /> <br />
         <Coursera />
         <br />
-        <br/>
+        <br />
         <Ad />
-        <Secondbox />
+        <Popular/>
       </div>
     </div>
   );

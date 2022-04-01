@@ -2,165 +2,177 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./projects.css";
 
-export default class PauseOnHoverResponsive extends Component {
-    render() {
-      var settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        pauseOnHover: true
-      };
+export default class Responsive extends Component {
+  render() {
+    var settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    };
     return (
       <div className="main">
         <h2> Recently Launched Guided Projects </h2>
         <Slider {...settings}>
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
             </div>
-
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
           </div>
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>The University of Edinburgh</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
           </div>
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
           </div>
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>{" "}
           <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
               <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
-          </div>
-          <div className="projects">
-            <img
-              src="https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlnaCUyMHJlcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-              alt=""
-            />
-            <div style={{ display: "flex" }}>
-              <h3>Computer Science: Programming with a Purpose</h3>
-            </div>{" "}
-            <p>princeton University</p>
-            <br />
-            <h5>GUIDED PROJECT</h5>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
           </div>
         </Slider>
       </div>

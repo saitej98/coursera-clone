@@ -4,10 +4,20 @@
   }
   .degree {
     height: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f7f8;
+
     padding: 30px;
     /* border: 1px solid black; */
-  
+  }
+  .dhover {
+    width: 70%;
+    height: 220px;
+    padding: 20px;
+    background-color: white;
+  }
+  .dhover:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
   }
   .degree img {
     width: 100%;
