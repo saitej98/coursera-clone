@@ -7,7 +7,7 @@ let arr2=["Learners","Partners","Developers","Beta Testers","Translators","Blog"
 let arr3=["Press","Investors","Terms","Privacy","Help","Accessibility","Contact","Articles","Directory","Affiliates"];
     return (
         <>
-        <h2>yutiytyut</h2>
+        
          <footer>
             
            <Box>

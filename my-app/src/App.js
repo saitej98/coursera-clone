@@ -12,7 +12,13 @@ function App() {
       <Route path='/' element={   
         <><Navbar/>
         <FooterComponent/></> }></Route>
-        <Route path='/search/:name' element={<SearchPage/>}></Route>
+        <Route path='/search/:name' element={
+        <>
+        <Navbar/>
+        <SearchPage/>
+        <FooterComponent/>
+        </>
+        }></Route>
     </Routes>
     
   );

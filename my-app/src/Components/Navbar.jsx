@@ -28,7 +28,7 @@ const navigate =useNavigate()
                     coursera
                 </Typography>
                 
-                <SearchIcon sx={{color:"black",marginLeft:"auto"}}/>
+                {/* <SearchIcon sx={{color:"black",marginLeft:"auto"}}/> */}
             </>
         :
         <>
