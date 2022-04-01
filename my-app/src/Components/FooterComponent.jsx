@@ -10,7 +10,7 @@ let arr3=["Press","Investors","Terms","Privacy","Help","Accessibility","Contact"
         
          <footer>
             
-           <Box>
+           <Box sx={{border:"1px solid transparent",marginTop:"70px"}}>
                <Container maxWidth="lg">
                    <Grid container spacing={5} >
                    <Grid item xs={12} sm={4}  > 
