@@ -6,6 +6,7 @@ import { Routes,Route } from 'react-router-dom';
 import { FooterComponent } from './Components/FooterComponent';
 import { SearchPage } from './Components/SearchPage';
 import { SubFooterComponent } from './Components/Subfooter';
+import { SingleProductPage } from './Components/SingleCoursePage';
 
 function App() {
   return (
@@ -22,6 +23,12 @@ function App() {
         <FooterComponent/>
         </>
         }></Route>
+        <Route path='/:id' element={<>
+        <Navbar/>
+        <SingleProductPage/>
+        <SubFooterComponent/>
+        <FooterComponent/>
+        </>}></Route> 
     </Routes>
     
   );

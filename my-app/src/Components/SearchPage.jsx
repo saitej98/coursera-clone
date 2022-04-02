@@ -1,7 +1,7 @@
 import {  Grid } from "@mui/material"
 import { useEffect, useState } from "react"
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import { useDispatch,useSelector } from "react-redux";
 import { searchedData } from "../Searchdata/action";
 export const SearchPage=()=>{
@@ -18,7 +18,7 @@ useEffect(()=>{
 const getData=()=>{
   console.log("yes")
      axios.get("http://localhost:8080/search").then((res)=>{
-       console.log(res.data)
+      //  console.log(res.data)
        setData([...res.data]);
        dispatch(searchedData(res.data));
      })
@@ -98,6 +98,9 @@ const handleSkill=(e)=>{
 }
 console.log(subject);
 console.log(level);
+const handleSingle=(item)=>{
+console.log(item);
+}
     return(<>
    
     <Grid container spacing={2} sx={{border:"1px solid transparent",marginTop:"20px",marginTop:"45px" }}>
@@ -166,18 +169,20 @@ console.log(level);
       if(skill.includes(e.skill)){
         return true;
       }
-    }).map((e,i)=>{
+    }).map((item,i)=>{
       return (
-      <div className="subdiv" key={i} style={{display:"flex",margin:"5px",flexWrap:"wrap",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px"}} > 
-      <img src={e.imageurl} style={{width:"150px",height:"150px"}}/>
+       
+      <div onClick={({item})=>{handleSingle(item)}} className="subdiv" key={i} style={{display:"flex",margin:"5px",flexWrap:"wrap",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px"}} > 
+      <img src={item.imageurl} style={{width:"150px",height:"150px"}}/>
       <div className="contentContainer" style={{lineHeight:"1.5px",marginLeft:"5px"}}>
-        <h3 style={{lineHeight:"18px"}}>{e.title}</h3>
-        <p style={{color:"grey"}}>{e.place}</p>
-        <h4>{e.coursetype}</h4>
-         <p>⭐{e.ratings}|{e.students}</p>
-         <h4>{e.level}</h4>
+      <Link to={`/${item._id}`}>  <h3 onClick={({item})=>{handleSingle(item)}} style={{lineHeight:"18px"}}>{item.title}</h3>   </Link>
+        <p style={{color:"grey"}}>{item.place}</p>
+        <h4>{item.coursetype}</h4>
+         <p>⭐{item.ratings}|{item.students}</p>
+         <h4>{item.level}</h4>
       </div>
       </div>
+   
      )
     })}
 
