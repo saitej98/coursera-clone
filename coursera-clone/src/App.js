@@ -4,7 +4,8 @@ import Degree from "./components/Degree/Degree";
 import Projects from "./components/Projects/Projects";
 import Coursera from "./components/Coursera/Coursera";
 import Ad from "./components/Ad/Ad";
-import Popular from "./components/Popular/Popular"
+import Popular from "./components/Popular/Popular";
+import Skill from "./components/Skill/Skill"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,7 +27,9 @@ function App() {
         <br />
         <br />
         <Ad />
-        <Popular/>
+        <Popular />
+        <br />
+        <Skill/>
       </div>
     </div>
   );
