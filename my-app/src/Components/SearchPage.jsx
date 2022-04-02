@@ -17,7 +17,7 @@ useEffect(()=>{
 },[])
 const getData=()=>{
   console.log("yes")
-     axios.get("http://localhost:8080/search").then((res)=>{
+     axios.get("https://courseera-backend-api.herokuapp.com/search").then((res)=>{
       //  console.log(res.data)
        setData([...res.data]);
        dispatch(searchedData(res.data));
