@@ -48,7 +48,19 @@ export default class Responsive extends Component {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
                 alt=""
               />
-              <h3>Computer Science: Programming with a Purpose</h3>
+              <h3>كيفية استخدام ميل شامب</h3>
+              <p>Coursera Project Network</p>
+              <br />
+              <h5>GUIDED PROJECT</h5>
+            </div>
+          </div>
+          <div className="projects">
+            <div className="phover">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
+                alt=""
+              />
+              <h3>Créer du contenu de sensibilisation pour Instagram sur</h3>
               <p>Coursera Project Network</p>
               <br />
               <h5>GUIDED PROJECT</h5>
@@ -72,19 +84,7 @@ export default class Responsive extends Component {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
                 alt=""
               />
-              <h3>Computer Science: Programming with a Purpose</h3>
-              <p>Coursera Project Network</p>
-              <br />
-              <h5>GUIDED PROJECT</h5>
-            </div>
-          </div>
-          <div className="projects">
-            <div className="phover">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sw3XvaGzmorTHpsFxd2xmn6rjd3jut6hEw&usqp=CAU"
-                alt=""
-              />
-              <h3>Computer Science: Programming with a Purpose</h3>
+              <h3>Create a digital Wireframe with Figma</h3>
               <p>Coursera Project Network</p>
               <br />
               <h5>GUIDED PROJECT</h5>
