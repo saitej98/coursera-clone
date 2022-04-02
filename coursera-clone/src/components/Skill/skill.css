@@ -1,0 +1,38 @@
+.main {
+    width: 80%;
+    margin: auto;
+  }
+  Slider {
+    margin-right: 50px;
+  }
+
+  .skill {
+    height: 450px;
+    background-color: #f5f7f8;
+    padding: 30px;
+    color: white;
+    /* border: 1px solid black; */
+  }
+  .shover {
+    width: 70%;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(51, 44, 174);
+  }
+  .shover:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+  
+  .skill h3 {
+    width: 70%;
+
+    font-weight: bold;
+  }
+  .shover img {
+    width: 90%;
+    height: 150px;
+    object-fit: contain;
+  }
+ 
+  

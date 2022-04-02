@@ -1,0 +1,31 @@
+.main {
+    width: 80%;
+    margin: auto;
+  }
+  .degree {
+    height: auto;
+    background-color: #f5f7f8;
+
+    padding: 30px;
+    /* border: 1px solid black; */
+  }
+  .dhover {
+    width: 70%;
+    height: 270px;
+    padding: 20px;
+    background-color: white;
+  }
+  .dhover:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+  .degree img {
+    width: 100%;
+    height:90px;
+    object-fit: cover;
+  }
+  .degree h5 {
+    width: 90%;
+    color: #0062e4;
+    font-weight: bolder;
+  }

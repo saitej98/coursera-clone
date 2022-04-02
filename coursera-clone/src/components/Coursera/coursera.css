@@ -1,0 +1,25 @@
+.main {
+  width: 80%;
+  margin: auto;
+}
+.coursera {
+  padding: 30px;
+  background-color: #f5f7f8;
+
+  /* border: 1px solid black; */
+}
+.coursera img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+.chover {
+  width: 40%;
+  height: 150px;
+  padding: 20px;
+  background-color: white;
+}
+.chover:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
