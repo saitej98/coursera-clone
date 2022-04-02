@@ -26,8 +26,8 @@ export const SingleProductPage=()=>{
 
     return(
         <>
-        <Grid container spacing={2} sx={{border:"1px solid red",marginTop:"45px",backgroundColor:"#165da4" }}>
-        <Grid item xs={12} md={7} sx={{border:"1px solid black",color:"white"}}>
+        <Grid container spacing={2} sx={{border:"1px solid transparent",marginTop:"45px",backgroundColor:"#165da4" }}>
+        <Grid item xs={12} md={7} sx={{border:"1px solid transparent",color:"white"}}>
             <p>Browse {`>`} Computer Scince {`>`} Mobile and Web Development</p>
         <h2 style={{marginTop:"70px"}}>{obj.title}</h2>
         <p>Build Complete Web and Hybrid Mobile Solutions. Master front-end web, hybrid mobile app and server-side development in three comprehensive courses.</p>
@@ -38,7 +38,7 @@ export const SingleProductPage=()=>{
         <p>{obj.about2}</p>
         <p>{obj.about3}</p>
         </Grid>
-        <Grid item xs={12} md={5} sx={{border:"1px solid green",color:"white"}}>
+        <Grid item xs={12} md={5} sx={{border:"1px solid transparent",color:"white"}}>
         <h4 style={{marginTop:"70px"}}>{obj.place}</h4>
         </Grid>
 
