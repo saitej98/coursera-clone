@@ -195,11 +195,12 @@ label{
 /* Professional Certificate */
 .iicontainer{
   background-color: #f5f7f8;
-  margin-top: 470px;
+  margin-top: 550px;
   height: 300px;
   }
   
   .learn_heading{
+    /* border: 1px solid red; */
     text-align: center;
     padding-top: 20px;
     font-size: 25px;

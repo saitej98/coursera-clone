@@ -62,7 +62,9 @@ export const SingleProductPage = () => {
             onClick={handleclick}
           >
             Enroll Now
-          </button>
+                  </button>{" "}
+
+                  <span>Rs.3899</span>
           <p>38,781 students already enrolled</p>
           <h3>About:</h3>
           <p>{obj.about1}</p>

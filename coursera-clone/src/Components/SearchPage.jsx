@@ -123,7 +123,7 @@ console.log(item);
  <label><input  type="checkbox" value={"1-4 Weeks"} onClick={(e)=>{handleDuration(e)}}/>1-4 Weeks</label>
  <label><input  type="checkbox" value={"1-3 Months"} onClick={(e)=>{handleDuration(e)}}/>1-3 Months</label>
  <label><input  type="checkbox" value={"3+ Months"} onClick={(e)=>{handleDuration(e)}}/>3+ Months</label>
- <h4>Duration</h4>
+ <h4>Skills</h4>
  <label><input  type="checkbox" value={"Computer Programming"} onClick={(e)=>{handleSkill(e)}}/>Computer Programming</label>
  <label><input  type="checkbox" value={"Database Design"} onClick={(e)=>{handleSkill(e)}}/>Database Design</label>
  <label><input  type="checkbox" value={"Algorithms"} onClick={(e)=>{handleSkill(e)}}/>Algorithms</label>

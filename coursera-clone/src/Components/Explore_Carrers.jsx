@@ -28,7 +28,7 @@ export const Explore_Carrer=()=>{
             <p>7 day free trial | Starting at $39 per month | Less than 6 months at your own pace</p>
             </div>
               
-              <button className="btn">Explore Carerrs</button>
+              <button className="btn">Explore Careers</button>
 
          </div>
 
