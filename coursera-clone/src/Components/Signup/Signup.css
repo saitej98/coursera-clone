@@ -1,0 +1,166 @@
+.loginDiv {
+    width: 450px;
+    height: 900px;
+    margin-left: 500px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.loginDiv h4 {
+    margin-left: 20px;
+}
+.loginDiv p {
+    margin-left: 80px;
+}
+.hr_line_login {
+    width: 80%;
+    /* border-color: rgb(224, 220, 220); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 19px;
+}
+
+.login_inputDiv {
+    margin-left: 30px;
+}
+.login_pw {
+    /* padding: 10px; */
+    cursor: pointer;
+    width: 75%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.login_pw_head{
+    margin-left: 20px;
+}
+#signup_input {
+    color: #fff;
+    background-color: blue;
+    border: 1px solid transparent;
+    font-weight: 700;
+      text-align: center;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+      width: 78%;
+      height: 50px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 25px;
+  }
+  #signup_input:hover {
+      background-color: blue;
+  }
+  .hv_account {
+      margin-left: 90px;
+      margin-top: 80px;
+      /* text-align: center; */
+      
+  }
+  .checkboxDiv {
+      margin-top: 20px;
+  }
+  .signup_checkbox {
+      margin-right: 10px;
+  }
+  #line {
+    display: flex;
+    color: rgb(156, 145, 145);
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    gap: 10px;
+    margin-left: 75px;
+    justify-content: center;
+  }
+  hr {
+    color: rgb(121, 117, 117);
+    width: 140px;
+  }
+  #logobox {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 98%;
+    margin: auto;
+  }
+  .boxes {
+    height: 70%;
+    width: 42%;
+    margin: auto;
+    margin-right: 40px;
+  }
+  #fb {
+    /* height: 90%; */
+    border-radius: 5px;
+    width: 80%;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    line-height: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  #fb > img {
+    height: 18px;
+    width: 25px;
+    padding: 15px;
+  }
+  #google {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    height: 45px;
+    width: 81%;
+    line-height: 5px;
+    margin-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  #google > img {
+    height: 18px;
+    width: 25px;
+    padding: 15px;
+  }
+
+  .main_head{
+      font-family: sans-serif;
+      color: rgb(58, 57, 57);
+      font-weight: lighter;
+      text-align: center;
+      /* margin-top: 50px; */
+     
+  }
+  .below_head{
+    font-weight: lighter;
+    text-align: center;
+    color:blue;
+    margin-right: 50px;
+    cursor: pointer;
+
+  }
+  .condition_tag{
+      color: rgb(68,67,67);
+      font-weight: lighter;
+      text-align: center;
+  }
+  .condition{
+    color: rgb(68, 67, 67);
+    font-weight: lighter;
+    text-align: center;
+  }
+  .head_down{
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(83, 82, 82);
+  }
+  .box{
+      border: 1px solid black;
+      background-color: rgb(215, 242, 253);
+  }

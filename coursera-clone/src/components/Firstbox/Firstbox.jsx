@@ -3,9 +3,9 @@ import "./firstbox.css";
 
 function Firstbox() {
   return (
-    <div className="Firstbox">
+    <div id="Firstbox1">
       <h1 className="h1">Welcome!</h1>
-      <div className=" right">
+      <div className=" right1">
         <div className="yourself">
           <h5>Tell us about yourself</h5>
           <p>
@@ -22,7 +22,7 @@ function Firstbox() {
             save to profile
           </a>
         </div>
-              <div className="goals">
+              <div className="goals1">
                   
           <h5> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5iSVqQm3PR_FHkDG7KbDf5xWqJlzHak8-CYKp__MvHkFdw0Wf" alt="" />SET YOUR LEARNING GOALS</h5>
           <p>Change my career</p>

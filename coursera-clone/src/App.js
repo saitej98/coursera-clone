@@ -19,7 +19,15 @@ import Ad from "./Components/Ad/Ad";
 import Popular from "./Components/Popular/Popular";
 import Skill from "./Components/Skill/Skill";
 import Explore from "./Components/Explore/Explore";
-import Checkout from "./Components/Checkout/Chekout"
+import Checkout from "./Components/Checkout/Chekout";
+
+//
+import CarrerAcademy from "./Components/CarrerAcademy/CarrerAcademy";
+import Payment from "./Components/PayementPage/Payment";
+//
+import Signup from "./Components/Signup/Signup";
+import Login from "./Components/Login/Login";
+//
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -84,6 +92,52 @@ function App() {
             <SingleProductPage />
             <SubFooterComponent />
             <FooterComponent />
+          </>
+        }
+      ></Route>
+      <Route
+        path="/career_acadamy"
+        element={
+          <>
+            <Navbar />
+            <CarrerAcademy />
+            <SubFooterComponent />
+            <FooterComponent />
+          </>
+        }
+      ></Route>
+      <Route
+        path="/payment"
+        element={
+          <>
+            <Navbar />
+            <Payment />
+            <SubFooterComponent />
+            <FooterComponent />
+          </>
+        }
+      ></Route>
+      <Route
+        path="/checkout"
+        element={
+          <>
+            <Checkout />
+          </>
+        }
+      ></Route>
+      <Route
+        path="/login"
+        element={
+          <>
+            <Login />
+          </>
+        }
+      ></Route>
+      <Route
+        path="/signup"
+        element={
+          <>
+            <Signup />
           </>
         }
       ></Route>
