@@ -24,11 +24,13 @@ const Signup = () => {
       formData
     );
     console.log(data)
-    alert(data.data)
+    // if(!data){
+    //   alert(data.data)
+    // }
       localStorage.setItem("username",JSON.stringify(data.data.user.name))
-      window.location.href="./home.jsx"
+    
   } catch (error) {
-   console.log(error)
+  alert("Please Enter Valid Details")
   }
   };
 

@@ -27,7 +27,7 @@ export const Login = () => {
               );
               localStorage.setItem("username",JSON.stringify(data.data.user.name))
         } catch (error) {
-            alert("please")
+            alert("Entered wrong email or password")
         }
         };
  
