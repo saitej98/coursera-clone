@@ -7,7 +7,6 @@ const Payment=()=>{
 
 const submitfun=(e)=>{
     e.preventDefault();
-  //  window.location.href="/carreracademy"
   alert("Payment susseful")
 }
 
@@ -23,7 +22,7 @@ const submitfun=(e)=>{
                 <img src="https://p.kindpng.com/picc/s/12-123392_transparent-paytm-logo-png-nerd-badge-png-download.png"></img>
                 <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/49/3b/cd/493bcd27-9434-74c6-77c5-de7514e870d3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/1024x1024bb.png"></img>
             </div>
-           <h1 className="payment_heading">Online Payment Made Easy for you.</h1>
+           <h1 className="payment_heading">Online Payment Made Easy For You.</h1>
            <p className="payment_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facere delectus, laud</p>
            <div className="form_div">
                 <h1 className="payment_heading">Payment</h1>
