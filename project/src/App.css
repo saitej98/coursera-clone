@@ -1,0 +1,540 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #ebf3ff;
+  height: 350px;
+  margin-top: 70px;
+  display: flex;
+}
+
+.left_div{
+  margin-left: 45px;
+}
+
+.heading h1{
+  /*color: #1f1f1f;   */
+  margin-top: 30px;
+  color: #000000e1;
+  font-size: 29px;
+  line-height: 2.20rem;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  /*font-family: 'Source Sans Pro', sans-serif; */
+  /*font-family: "Source Sans Pro",Arial,sans-serif;  */
+}
+
+.para p {
+  font-size: 18px;
+  line-height: 1.5rem;
+  margin-top: 15px;
+  color: #1f1f1f;
+
+}
+
+.iindpara p{
+  font-size:15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.right{
+  margin-left: 18rem;
+}
+.right img{
+   height: 350px;
+   width: 450px;
+}
+
+.btn{
+  background-color: #0056d2;
+  color: #fff;
+  width: 320px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  border: #0056d2;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: #0d3469;
+}
+
+
+/* First step CArres */
+
+.first_step_container , .FindCarrers{
+   
+  width: 100%; 
+  height: auto; 
+  
+}
+
+.card ,.Find_Carrer_Card {
+  
+   width: 21%;
+  margin: 5%;
+ /* border: 2px solid blue;  */
+  float: left; 
+}
+
+.div_img{
+ /* border: 2px solid red;  */
+  width: 100px;
+  height: 80px;
+  margin: auto;
+}
+.div_img img{
+  height: 80px;
+}
+
+.card_title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card_short{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.vertical_line{
+  border: 1px solid grey;
+  width: 60px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card_quantity{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #382d8b;
+}
+
+.card_description{
+  font-size: 14px;
+  color:#382d8b ;
+}
+
+
+.first_step_heading{
+   text-align: center;
+   margin-top: 40px;
+   font-size: 27px;
+   font-weight: 500;
+}
+
+.firsr_step_para{
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+
+
+/* Professional Certificate */
+.iicontainer{
+  background-color: #f5f7f8;
+  margin-top: 470px;
+  height: 300px;
+  }
+  
+  .learn_heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .learn_para{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  
+  .img_div{
+    display: flex;
+    gap: 100px;
+    width: 900px;
+    margin: auto;
+    margin-top: 40px;
+   /* border: 2px solid red;  */
+  }
+  
+  .img_div img{
+    height: 50px;
+    width: 100px;
+  }
+  
+  
+  
+/*Finished Profressional Certificate */
+
+.container_iii{
+  display: flex;
+  gap:120px;
+  background-color:#f5f7f8;
+  height: 450px;
+  margin-top: 2050px;
+}
+
+.leftdiv{
+  padding-top: 35px;
+  padding-left: 80px;
+}
+
+.rightdiv{
+ /* border: 2px solid blue;  */
+  padding-top: 35px;
+  padding-right: 35px;
+  width: 620px;
+}
+
+.finish_para{
+  color: #382d8b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.job_search_heading{
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.common_heading{
+  font-size: 21px;
+  margin-top: 30px;
+  font-weight: 400;
+  color: rgb(58, 55, 55);
+
+}
+
+
+
+
+
+/* Accordin css */
+
+.frequently_heading{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 27px;
+  color: #1f1f1f;
+ /* font-family: "Source Sans Pro",Arial,sans-serif;  */
+  font-weight: 700;
+
+}
+
+.q_symbol{
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.main-div{
+  margin: auto;
+  margin-top: 30px;
+ /* border: 2px solid red;  */
+  width: 1000px;
+ /* height: 400px; */
+}
+
+
+.main-heading{
+border: 1px solid  gray;
+border-radius: 5px;
+margin: 20px;
+height: 180px;
+padding-left: 30px;
+
+}
+
+.Q_heading{
+  font-size:18px ;
+  font-weight: 600;
+ 
+}
+.ans{
+  font-size: 16px;
+  margin-top: 20px;
+  padding-left: 30px; 
+
+}
+
+
+/*  Find A carrer */
+
+ .Find_Carrer_heading{
+  margin-top: 60px;
+  text-align: center;
+   font-size: 27px;
+   font-weight: 500;
+}
+
+.find_carrer_para{
+  text-align: center;
+  font-size: 16px;
+
+}
+
+ .FindCarrers{
+   
+  width: 100%; 
+  height: auto; 
+  
+}
+
+.Find_Carrer_Card {
+  
+   width: 28%;
+  margin: 2%;
+  /*border: 2px solid blue;  */
+  float: left; 
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+        border-radius: 10px;
+        height: 600px;
+}
+.Find_Carrer_Card:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.F_C_img_div{
+  height: 100px;
+  width: 100%;
+ /* border: 2px solid black; */
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+
+.F_C_img_div img{
+  height: 150px;
+  width: 100%; 
+  border-radius: 5px;
+}
+
+.department_div{
+  font-size: 16px;
+  font-weight: 300px;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+.about_depart_div{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.li_div{
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color:  rgb(58, 55, 55);
+}
+.ul_div{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.salary_div{
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(58, 55, 55);
+  margin-left: 10px;
+}
+
+.opening_div{
+  margin-top: 10px;
+  font-size: 14px;
+  color:  rgb(58, 55, 55);
+  margin-left: 10px;
+}
+
+
+
+
+
+.ver_line{
+  border: 1px solid grey;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.recomnd_div{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  color:  rgb(58, 55, 55);
+  margin-left: 10px;
+}
+
+.company_div{
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0056d2;
+  margin-left: 10px;
+}
+
+
+ 
+
+
+
+/* payent page */
+
+.Container_Payment{
+  display: flex;
+  gap:200px;
+  background-color:#f5f7f8 ;
+}
+
+.left_payment{
+/*  border:2px solid red; */
+  width: 35%;
+  height: 550px;
+  margin-left: 100px;
+  margin-top: 100px;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+  
+}
+
+
+.right_payment{
+ /* border: 2px solid blue; */
+  width: 35%;
+  height: 600px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+
+.logo_div{
+   display:flex;
+   height: 100px;
+   width: 100%;
+  /* border: 1px solid purple; */
+   gap:50px
+}
+
+.logo_div img{
+  height: 80px;
+  width:70px;
+}
+.payment_heading{
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+
+.payment_para{
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+.ist_img{
+  height: 450px;
+  width: 350px;
+  margin-top: 70px;
+ /* border:2px solid orangered;  */
+  margin-top: 50px;
+}
+
+.ist_img img{
+  height: 400px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+
+.iind_img{
+  height: 150px;
+  /*border: 2px solid black; */
+  width: 320px;
+  margin-left: 170px;
+  margin-top:-500px;
+
+}
+
+.iind_img img {
+  height: 150px;
+  width: 320px;
+  border-radius: 15px;
+}
+
+
+/* form */
+
+.form_div{
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  /*border:2px solid red; */
+ /* box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3); */
+
+}
+
+.name,.card_number{
+   width: 70%;
+   height: 30px;
+   border-radius: 5px;
+}
+
+.date{
+  width: 35%;
+  height: 30px;
+  border-radius: 5px;
+}
+.security{
+  
+  width: 33%;
+  margin: 10px;
+  height: 30px;
+  border-radius: 5px;
+
+}
+
+.submitbtn{
+  height: 30px;
+  width: 70%;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.submitbtn:hover{
+  background-color: #0d3469;
+  cursor: pointer;
+}
+
+.payment_heading{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
