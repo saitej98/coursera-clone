@@ -1,9 +1,10 @@
 
 
 .Firstbox {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   width: 100%;
-  height: 170px ;
+  height: 220px ;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
