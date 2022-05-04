@@ -1,14 +1,13 @@
-import { SEARCHED_DATA } from "./action";
-let initStore={
-    data:[]
-}
-export const reducer=(store=initStore,{type,payload})=>{
-    // console.log(store)
-    switch (type){
-        case SEARCHED_DATA:
-            return {...store,data:payload}
-            default :
-            return store;
-
-    }
-}
+import { LOADING_DATA } from "./action";
+let initStore = {
+  loading: false,
+};
+export const reducer = (store = initStore, { type, payload }) => {
+  // console.log(store)
+  switch (type) {
+    case LOADING_DATA:
+      return { ...store, loading: payload };
+    default:
+      return store;
+  }
+};

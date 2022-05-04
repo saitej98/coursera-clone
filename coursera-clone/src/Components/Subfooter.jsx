@@ -8,10 +8,10 @@ let arr3=["Skills for Data Science Teams","Data Driven Decision Making","Softwar
 let arr4=["MasterTrack® Certificates","Professional Certificates","University Certificates","MBA & Business Degrees","Data Science Degrees","Computer Science Degrees","Data Analytics Degrees","Public Health Degrees","Social Sciences Degrees","Management Degrees","Degrees from Top European Universities","Master's Degrees","Bachelor's Degrees","Degrees with a Performance Pathway","Bsc Courses","What is a Bachelor's Degree?","How Long Does a Master's Degree Take?","Is an Online MBA Worth It?","7 Ways to Pay for Graduate School","See all certificates"]   
 return (
         <>
-        
+     
          <footer>
-            
-           <Box sx={{border:"1px solid transparent",marginTop:"70px"}}>
+         <hr style={{marginTop:"50px",width:"80%"}} />
+           <Box sx={{border:"1px solid transparent",marginTop:"20px"}}>
                <Container maxWidth="lg">
                    <Grid container spacing={5} >
                    <Grid item xs={12} sm={3}  > 

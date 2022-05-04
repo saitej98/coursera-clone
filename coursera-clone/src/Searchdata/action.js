@@ -1,3 +1,3 @@
-export const SEARCHED_DATA="SEARCHED_DATA";
+export const LOADING_DATA = "LOADING_DATA";
 
-export const searchedData=(payload)=>({type:SEARCHED_DATA,payload});
+export const toggleLoading = (payload) => ({ type: LOADING_DATA, payload });

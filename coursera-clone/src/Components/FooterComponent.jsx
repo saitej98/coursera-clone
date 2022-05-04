@@ -7,9 +7,9 @@ let arr2=["Learners","Partners","Developers","Beta Testers","Translators","Blog"
 let arr3=["Press","Investors","Terms","Privacy","Help","Accessibility","Contact","Articles","Directory","Affiliates"];
     return (
         <>
-        
+          <hr />
          <footer>
-            
+     
            <Box sx={{border:"1px solid transparent",marginTop:"70px"}}>
                <Container maxWidth="lg">
                    <Grid container spacing={5} >
