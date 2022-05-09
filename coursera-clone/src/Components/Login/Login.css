@@ -1,5 +1,7 @@
+
 .loginDiv {
     width: 450px;
+    z-index: 1;
     height: 700px;
     margin-left: 500px;
     /* border: 1px solid red; */
@@ -35,6 +37,12 @@
 }
 .login_pw_head{
     margin-left: 20px;
+}
+#sign-up{
+  color: blue;
+}
+#sign-up:hover{
+  cursor: pointer;
 }
 #signup_input {
     color: #fff;
@@ -82,8 +90,8 @@
     width: 140px;
   }
   #logobox {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     height: 60px;
     width: 98%;
     margin: auto;
@@ -100,7 +108,7 @@
     width: 80%;
     height: 45px;
     border: 1px solid black;
-    display: flex;
+    /* display: flex; */
     line-height: 5px;
     margin-left: 20px;
     margin-bottom: 5px;
@@ -167,7 +175,8 @@
     text-align: center;
     color: rgb(83, 82, 82);
   }
-  .box{
-      border: 1px solid black;
+  #box{
+      border: 1px solid transparent;
+      z-index: -1;
       background-color: rgb(215, 242, 253);
   }

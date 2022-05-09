@@ -63,7 +63,7 @@ export const Navbar = () => {
             <>
               <Typography
                 sx={{ color: "#007bff", fontSize: "25px", fontWeight: "20px" }}
-                onClick={handleHome}
+                onClick={handleHome} className="heading"
               >
                 coursera
               </Typography>

@@ -20,29 +20,12 @@ export const SingleProductPage = () => {
   const getData = () => {
     dispatch(toggleLoading(true));
     axios
-      .get("https://courseera-backend-api.herokuapp.com/search")
+      .get(`https://courseera-backend-api.herokuapp.com/search/${id}`)
       .then((res) => {
-        let result = res.data.filter((e) => {
-          if (e._id == id) {
-            return true;
-          }
-        });
         dispatch(toggleLoading(false));
-        SetData(result[0]);
-        // dispatch(searchedData(res.data));
+        SetData(res.data);
       });
   };
-
-  // console.log("getdata",getdata);
-  // let filtered = getdata.filter((e) => {
-  //   if (e._id == id) {
-  //     // console.log("e",e);
-  //     return true;
-  //   }
-  // });
-
-  // let obj = filtered[0];
-  console.log("obj", obj);
 
   useEffect(() => {
     getData();

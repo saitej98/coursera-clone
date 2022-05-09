@@ -4,6 +4,9 @@
     background-size: cover;
     object-fit: cover;
 } */
+.courser:hover {
+  cursor: pointer;
+}
 .checkout {
   background-color: white;
   width: 55%;

@@ -12,7 +12,11 @@ export const DrawerCoomponent=()=>{
     const navigate =useNavigate()
        const handleClick=()=>{
         return navigate(`/search/${input}`);
-       }
+  }
+  const handlelogin=()=>{
+    return navigate(`/login`);
+}
+  
     return(
         <React.Fragment>
          <Drawer open={openDrawer}
@@ -25,7 +29,7 @@ export const DrawerCoomponent=()=>{
                    <SearchIcon sx={{color:"white", border:"1px solid ",backgroundColor:"#007bff",paddingLeft:"0.2%",paddingRight:"0.2%",height:"23px",marginBottom:"-7.5px",marginLeft:"-1px"}} onClick={()=>{handleClick()}}/>
              </span>
            
-           <Button sx={{marginLeft:"15%",marginTop:"0.5%"}}>LOG In</Button>
+           <Button sx={{marginLeft:"15%",marginTop:"0.5%"}} onClick={handlelogin}>LOG In</Button>
                {arr1.map((e,i)=>{
                return  <ListItemButton key={i} >
                  <ListItemIcon>

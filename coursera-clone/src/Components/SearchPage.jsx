@@ -5,7 +5,6 @@ import { useParams, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { searchedData, toggleLoading } from "../Searchdata/action";
 export const SearchPage = () => {
-  let courses = ["react", "Python"];
   let [data, setData] = useState([]);
   const dispatch = useDispatch();
   let [subject, setSubject] = useState([]);
@@ -27,6 +26,7 @@ export const SearchPage = () => {
       });
   };
   const loading = useSelector((store) => store.loading);
+
   const getdata = useSelector((store) => store.data);
   // console.log(getdata);
 
@@ -96,8 +96,7 @@ export const SearchPage = () => {
       setSkill([...update]);
     }
   };
-  console.log(subject);
-  console.log(level);
+
   const handleSingle = (item) => {
     console.log(item);
   };
@@ -284,11 +283,57 @@ export const SearchPage = () => {
             <CircularProgress sx={{ marginTop: "50px", marginLeft: "50%" }} />
           ) : (
             <>
-              {!courses.includes(name) ? (
+              {data
+                .filter((e) => {
+                  if (e.language == name) {
+                    return true;
+                  }
+                })
+                .filter((e) => {
+                  if (subject.length == 0) {
+                    return true;
+                  }
+                  if (subject.includes(e.subject)) {
+                    return true;
+                  }
+                })
+                .filter((e) => {
+                  if (level.length == 0) {
+                    return true;
+                  }
+
+                  if (level.includes(e.level)) {
+                    return true;
+                  }
+                })
+                .filter((e) => {
+                  if (duration.length == 0) {
+                    return true;
+                  }
+
+                  if (duration.includes(e.duration)) {
+                    return true;
+                  }
+                })
+                .filter((e) => {
+                  if (skill.length == 0) {
+                    return true;
+                  }
+
+                  if (skill.includes(e.skill)) {
+                    return true;
+                  }
+                }).length == 0 ? (
                 <img
                   src="https://previews.123rf.com/images/goodjane/goodjane1902/goodjane190200031/116711775-hand-drawn-404-error-banner-vector-illustration-students-learning-near-a-big-banner-can-be-used-as-a.jpg"
                   alt="Not Found"
-                style={{width:"60%",height:"80%",objectFit:"cover",marginLeft:"25%"}}/>
+                  style={{
+                    width: "60%",
+                    height: "80%",
+                    objectFit: "cover",
+                    marginLeft: "25%",
+                  }}
+                />
               ) : (
                 data
                   .filter((e) => {
