@@ -9,7 +9,7 @@ function Firstbox() {
         <div className="yourself">
           <h5>Tell us about yourself</h5>
           <p>
-            I am currently a{" "}
+            I am currently a
             <input id="self" type="text" placeholder="software developer" />
           </p>
           <a style={{color:"blue" }}
